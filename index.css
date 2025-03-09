@@ -913,6 +913,114 @@ header {
         margin-top: 300%;
     }
 }
+@media (max-width: 393px) {
+    body {
+     height:fit-content;
+    }
+   
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+        padding: 5px;
+        font-size: 16px;
+        width: 375px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 5px;
+        font-size: 16px;
+    }
+    .hero-content {
+        position: absolute;
+        margin: 40px 40px;
+        top: 50%;
+    }
+    .hero-content h1 {
+        font-size: 16px;
+       padding-top: 0%;
+        
+    }
+    #services {
+        margin-top: 300px;
+    }
+    
+    .hero-content p {
+        font-size: 12px;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .service-box {
+        width: 70%;
+        font-size: 12px;
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 12px 70px;
+        margin: 15px 50px;
+    }
+    .hero-image{
+        height: 400px;
+        width: 435px;
+        padding-left: 20px;
+        margin-top: 150px;
+        margin-left: 15%;
+    }
+    .about-section {
+        margin-top: 40%; 
+    }
+    .about-container h2 {
+        font-size: 20px;
+    }
+    .about-container p {
+        font-size: 16px;
+    }
+    .video-container {
+        margin-top: 30%;
+        margin-left: 9%;
+        height: 200px;
+        width: 200px;
+    }
+    .video-containertwo {
+        margin-left: 0%;
+        margin-top: 90%;
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        left: 23.5%;
+    }
+    #myVideo2 {
+        height: 200px;
+        width: 200px;
+        margin-left: 0%;
+
+       
+    }
+    .about-more {
+       
+        padding: 0%;
+        margin: 0% 5%;
+       
+        margin-top: 60%;
+    }
+    .about-more h2 {
+         font-size: 20px;
+    }
+    .about-more p {
+        font-size: 16px;
+    }
+    #contact{
+        padding: 10px 40px;
+     
+    }
+    #contacttwo {
+        margin-top: 340%;
+        padding: 10px 40px;
+    }
+}
+
     /* IPHONE SE */
 @media (max-width: 375px) {
         body {
