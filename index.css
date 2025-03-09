@@ -404,16 +404,19 @@ header {
 
 /* Responsive Design */
 @media (max-width: 1024px) {
-    .navbar {
+    header{
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 15px 0;
+    }
+    .navbar {
+        align-items: center;
+        text-align: center;
+        padding: 15px 15px;
     }
 
     .nav-links {
         display: flex;
-        flex-direction: column;
         text-align: center;
         padding: 10px 0;
         gap: 10px;
@@ -422,17 +425,89 @@ header {
     }
 
     .hero-content {
-        max-width: 100%;
+        max-width: 50%;
+        margin: 55px 20px ;
+        position: absolute;
+        top: 15%;
+        left: 40%;
     }
 
     .hero-content h1 {
-        font-size: 30px;
+        font-size: 23px;
     }
 
     .hero-content p {
+        font-size: 13px;
+    }
+   
+    .hero-image {
+        margin-top: 50%;
+        width: 300px;
+        margin: 200px auto 0;
+        margin-left: 6%;
+        
+    }
+    .about-section {
+        margin-top: 8%; 
+    }
+    .about-container h2 {
+        font-size: 20px;
+    }
+    .about-container p {
         font-size: 16px;
     }
-}
+    .video-container {
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        margin-left: 160px;
+    }
+    .video-containertwo {
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        left: 43%;
+    }
+    #myVideo2 {
+        height: 300px;
+        width: 300px;
+        margin-left: 5%;
+
+       
+    }
+    .about-more {
+        padding: 0%;
+        margin: 1% 8%;
+       
+    }
+    .about-more h2 {
+         font-size: 20px;
+    }
+    .about-more p {
+        font-size: 16px;
+    }
+    .button {
+        margin-left: 35px;
+    }
+
+    #services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-box {
+        width: 80%;
+    }
+    #contact {
+      padding: 20px 40px;
+    }
+    #contacttwo {
+        padding: 20px 40px;
+        margin-top: 70%;
+    }
+} 
+
+
 @media (max-width: 768px) {
     header{
         flex-direction: column;
@@ -440,45 +515,43 @@ header {
         text-align: center;
     }
     .navbar{
-        flex-direction: column;
+        width: 768px;
         align-items: center;
-        padding: 10px;
+        padding: 10px 10px;
     }
     .nav-links{
-        flex-direction: column;
+        
         align-items: center;
-        padding: 10px 0;
+        padding: 10px 5px;
         gap :10px;
     }
     .hero-content{
-        position: relative;
+        position: absolute;
         max-width: 100%;
         text-align: center;
         margin-top: 40px;
+        top: 25%;
         
-        
-
     }
     .hero-content h1 {
-        font-size: 28px;
+        font-size: 25px;
         margin-left: 0;
     }
 
     .hero-content p {
-        font-size: 16px;
-        max-width: 100%;
+        font-size: 13px;
         text-align: center;
         margin-left: 0;
     }
     .hero-image {
-        
-        width: 700px;
-        margin: 300px auto 0;
-        margin-left: 26%;
-        
+        margin-top: 30%;
+        width: 300px;
+        margin: 200px auto 0;
+        margin-left: 6%;
+        padding-left: 10px;
     }
     .about-section {
-        margin-top: 23%; 
+        margin-top: 75px; 
     }
     .about-container h2 {
         font-size: 20px;
@@ -492,7 +565,7 @@ header {
         width: 200px;
     }
     .video-containertwo {
-        margin-left: 30%;
+        margin-left: 10%;
         height: 200px;
         width: 200px;
     }
@@ -532,12 +605,114 @@ header {
     }
     #contacttwo {
         padding: 20px 40px;
-        margin-top: 150%;
+        margin-top: 100%;
     }
 } 
 
 
 /* IPHONE XR/ANDROIDS */
+@media (max-width: 425px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+        padding: 5px;
+        width: 425px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .hero-content h1 {
+        font-size: 24px;
+        padding-top: 0%;
+    }
+
+    .hero-content {
+        margin: 40px 40px ;
+        margin-top: 250px;
+        position: absolute;
+        left: 0%;
+    }
+    .hero-content p {
+        font-size: 16px;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .service-box {
+        width: 90%;
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 12px 90px;
+        margin: 15px 50px;
+    }
+    .hero-image {
+       max-width: 70%;
+       width: 70%;
+       height: auto !important;
+        padding-left: 10px;
+        margin-top: 150px;
+        margin-left: 15%;
+    }
+    .about-section {
+        margin-top: 38%; 
+    }
+    .about-container h2 {
+        font-size: 20px;
+    }
+    .about-container p {
+        font-size: 16px;
+    }
+    .video-container {
+        margin-left: 24%;
+        height: 200px;
+        width: 200px;
+        margin-top: 100px;
+
+    }
+    .video-containertwo {
+        margin-left: 0%;
+        height: 200px;
+        width: 200px;
+        margin-top: 80%;
+        position: absolute;
+        left: 25.5%;
+    }
+    #myVideo2 {
+        height: 200px;
+        width: 200px;
+        margin-top: 0%;
+        margin-left: 1%;
+
+    }
+    .about-more {
+       
+        padding: 0%;
+        margin: 0% 5%;
+       
+        margin-top: 60%;
+    }
+    .about-more h2 {
+         font-size: 20px;
+    }
+    .about-more p {
+        font-size: 16px;
+   }
+    #services {
+        margin-top: 300px;
+    }
+    #contact{
+        padding: 20px 40px;
+    }
+    #contacttwo {
+        padding: 20px 40px;
+        margin-top: 300%;
+    }
+}
 @media (max-width: 414px) {
     .navbar {
         flex-direction: column;
@@ -558,7 +733,7 @@ header {
 
     .hero-content {
         margin-bottom: 30px;
-        margin: 40px 75pxs ;
+        margin: 40px 75px ;
     }
     .hero-content p {
         font-size: 16px;
@@ -601,7 +776,7 @@ header {
         margin-left: 0%;
         height: 200px;
         width: 200px;
-        margin-top: 70%;
+        margin-top: 90%;
     }
     #myVideo2 {
         height: 200px;
@@ -707,6 +882,8 @@ header {
             margin-top: 90%;
             height: 200px;
             width: 200px;
+            position: absolute;
+            left: 23.5%;
         }
         #myVideo2 {
             height: 200px;
@@ -733,7 +910,7 @@ header {
          
         }
         #contacttwo {
-            margin-top: 320%;
+            margin-top: 340%;
             padding: 10px 40px;
         }
 }
