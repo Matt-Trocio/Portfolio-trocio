@@ -403,6 +403,110 @@ header {
 }
 
 /* Responsive Design */
+@media (max-width: 1440px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .navbar {
+        align-items: center;
+        text-align: center;
+        padding: 15px 15px;
+    }
+
+    .nav-links {
+        display: flex;
+        text-align: center;
+        padding: 10px 0;
+        gap: 10px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .hero-content {
+        max-width: 50%;
+        margin: 55px 20px ;
+        position: absolute;
+        top: 15%;
+        left: 40%;
+    }
+
+    .hero-content h1 {
+        font-size: 23px;
+    }
+
+    .hero-content p {
+        font-size: 13px;
+    }
+   
+    .hero-image {
+        margin-top: 50%;
+        width: 300px;
+        margin: 200px auto 0;
+        margin-left: 6%;
+        
+    }
+    .about-section {
+        margin-top: 5.5%; 
+    }
+    .about-container h2 {
+        font-size: 20px;
+    }
+    .about-container p {
+        font-size: 16px;
+    }
+    .video-container {
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        margin-left: 150px;
+        left: 15%;
+    }
+    .video-containertwo {
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        left: 43%;
+    }
+    #myVideo2 {
+        height: 300px;
+        width: 300px;
+        margin-left: 5%;
+
+       
+    }
+    .about-more {
+        padding: 0%;
+        margin: 1% 8%;
+       
+    }
+    .about-more h2 {
+         font-size: 20px;
+    }
+    .about-more p {
+        font-size: 16px;
+    }
+    .button {
+        margin-left: 35px;
+    }
+
+    #services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-box {
+        width: 80%;
+    }
+    #contact {
+      padding: 20px 40px;
+    }
+    #contacttwo {
+        padding: 20px 40px;
+        margin-top: 50%;
+    }
+} 
 @media (max-width: 1024px) {
     header{
         flex-direction: column;
@@ -460,7 +564,7 @@ header {
         position: absolute;
         height: 300px;
         width: 300px;
-        margin-left: 160px;
+        margin-left: 15px;
     }
     .video-containertwo {
         position: absolute;
@@ -560,7 +664,7 @@ header {
         font-size: 16px;
     }
     .video-container {
-        margin-left: 18%;
+        margin-left: 3%;
         height: 200px;
         width: 200px;
     }
@@ -668,7 +772,7 @@ header {
         font-size: 16px;
     }
     .video-container {
-        margin-left: 24%;
+        margin-left: 11%;
         height: 200px;
         width: 200px;
         margin-top: 100px;
@@ -768,7 +872,7 @@ header {
         font-size: 16px;
     }
     .video-container {
-        margin-left: 24%;
+        margin-left: 11%;
         height: 200px;
         width: 200px;
     }
@@ -873,7 +977,7 @@ header {
         }
         .video-container {
             margin-top: 30%;
-            margin-left: 21%;
+            margin-left: 9%;
             height: 200px;
             width: 200px;
         }
